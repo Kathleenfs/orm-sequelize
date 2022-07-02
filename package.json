@@ -1,14 +1,13 @@
 {
   "name": "orm-sequelize",
   "version": "1.0.0",
-  "description": "",
   "main": ".api/index.js",
   "scripts": {
     "start": "nodemon ./api/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "kathleen",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.20.0",
@@ -20,5 +19,14 @@
   },
   "devDependencies": {
     "nodemon": "^2.0.18"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kathleenfs/orm-sequelize.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Kathleenfs/orm-sequelize/issues"
+  },
+  "homepage": "https://github.com/Kathleenfs/orm-sequelize#readme",
+  "description": ""
 }
