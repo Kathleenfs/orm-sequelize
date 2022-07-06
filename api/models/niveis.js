@@ -2,6 +2,8 @@
 const {
   Model
 } = require('sequelize');
+const pessoas = require('./pessoas');
+const turmas = require('./turmas');
 module.exports = (sequelize, DataTypes) => {
   class Niveis extends Model {
     /**
