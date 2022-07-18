@@ -1,4 +1,4 @@
-//controllers/NivelController.js
+const database = require('../models')
 
 class NivelController {
 
@@ -11,3 +11,5 @@ class NivelController {
       }
     }
 }
+
+module.exports = NivelController

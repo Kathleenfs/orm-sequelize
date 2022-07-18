@@ -1,4 +1,4 @@
-// controllers/TurmaController.js
+const database = require('../models')
 
 class TurmaController {
 
@@ -11,3 +11,5 @@ class TurmaController {
       }
     }
 }
+
+module.exports = TurmaController
